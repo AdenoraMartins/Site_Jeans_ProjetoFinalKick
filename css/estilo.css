@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family= EB+Garamond:wght@600 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Akatab :wght@400;700 & display=swap');
+
+
+header{
+    background-image: url(../img/jeans-pl_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'EB Garamond', serif;
+    opacity: 90%;
+}
+h1{
+    font-size: 76px;
+    font-style:unset;
+}
+nav{
+    font-family: 'Akatab', sans-serif;
+}
+img{
+  width: 100%;  
+
+}
+.container{
+    font-family: 'Akatab', sans-serif;
+    margin: auto;
+    padding: 10px;
+}
+.carrosel{
+    padding-top: 35px;
+    margin: auto;
+    width: 700px;
+    height: 550px;
+    font-family: 'Akatab', sans-serif;
+  
+}
+footer{
+    padding: 0px;
+    margin: auto;
+    font-family: 'Akatab', sans-serif;
+}

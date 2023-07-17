@@ -21,9 +21,12 @@ img{
 
 }
 .container{
-    font-family: 'Akatab', sans-serif;
     margin: auto;
     padding: 10px;
+}
+.container p{
+    font-family: 'Akatab', sans-serif;  
+    text-align: justify;
 }
 .carrosel{
     padding-top: 35px;
@@ -37,4 +40,21 @@ footer{
     padding: 0px;
     margin: auto;
     font-family: 'Akatab', sans-serif;
+}
+
+@media screen and (max-width:768px){
+    .carrosel{
+        margin: auto;
+        padding-left: 0px;
+        width: 90%;
+        display: none;   
+    }
+    .container{
+        margin: auto;
+        padding-left: 0px;
+    }
+    .footer{
+        font-size: 5px;
+    }
+
 }

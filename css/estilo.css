@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family= EB+Garamond:wght@600 & display=swap');
 @import url('https://fonts.googleapis.com/css2?family= Akatab :wght@400;700 & display=swap');
 
-
 header{
     background-image: url(../img/jeans-pl_fundo.jpg);
     background-repeat: no-repeat;
@@ -17,7 +16,7 @@ nav{
     font-family: 'Akatab', sans-serif;
 }
 img{
-  width: 100%; 
+  width: 90%; 
 }
 .container{
     margin: auto;
@@ -44,9 +43,6 @@ footer{
 
 @media screen and (max-width:768px){
     .carrosel{
-        margin: auto;
-        padding-left: 0px;
-        width: 90%;
         display: none;   
     }
     .container{
